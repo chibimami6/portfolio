@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+// 色の設定-------------------------------------
+$base-color: #fff;
+$main-color: #ddd;
+$accent-color: #f00;
+
+
+// フォントの設定-------------------------------
+
+
+
+// ブレイクポイントの設定-----------------------
+$breakpoints: (
+    sp: "only screen and (max-width: 575px)",
+    tab: "only screen and (max-width: 768px)",
+    pc: "only screen and (max-width: 991px)",
+);

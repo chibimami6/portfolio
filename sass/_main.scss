@@ -1,0 +1,29 @@
+// h1 {
+//     color: $base-color;
+//     @include media(pc){
+//         color: $main-color;
+//     }
+//     @include media(tab){
+//         color: $accent-color;
+//     }
+//     @include media(sp){
+//         font-size: 20px;
+//     }
+// }
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Baloo Bhai', cursive;
+    padding: 80px;
+}
+
+main{
+    display: flex;
+    justify-content: flex-end;
+}
+
+main > img{
+    padding: 20px;
+}
+
