@@ -1,0 +1,42 @@
+.contact{
+    height: 100vh;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.input-area{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.form-left> :first-child{
+    margin-bottom: 20px;
+}
+
+.form-left> input{
+    box-sizing: border-box;
+    height: 50px;
+    width: 300px;
+}
+
+.form-right> textarea{
+    box-sizing: border-box;
+    height: 120px;
+    width: 300px;
+}
+
+.submit{
+    padding: 10px 20px;
+}
